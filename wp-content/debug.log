@@ -1,0 +1,317 @@
+[29-Dec-2020 10:42:41 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\inc\MyThemeTermsMetaBoxes.php on line 741
+[29-Dec-2020 10:42:41 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:41 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:41 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:41 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:41 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:41 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:41 UTC] PHP   6. include() D:\www\cartise-demo\wp-settings.php:514
+[29-Dec-2020 10:42:41 UTC] PHP   7. require_once() D:\www\cartise-demo\wp-content\themes\cartise\functions.php:18
+[29-Dec-2020 10:42:41 UTC] PHP   8. require_once() D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\options.php:166
+[29-Dec-2020 10:42:41 UTC] PHP Notice:  Undefined index: disable in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:41 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:41 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:41 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:41 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:41 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:41 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:41 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:41 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:41 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:41 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:41 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:41 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:41 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:41 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:41 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:41 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:41 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:41 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:41 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:41 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:41 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-hooks.php on line 527
+[29-Dec-2020 10:42:41 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:41 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:41 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:41 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:41 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:41 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:41 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:41 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:41 UTC] PHP   8. WP_Query->parse_query() D:\www\cartise-demo\wp-includes\class-wp-query.php:1766
+[29-Dec-2020 10:42:41 UTC] PHP   9. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1080
+[29-Dec-2020 10:42:41 UTC] PHP  10. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:41 UTC] PHP  11. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:41 UTC] PHP  12. tsm_convert_id_to_term_in_query() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:41 UTC] PHP Notice:  Undefined index: no_paging in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php on line 402
+[29-Dec-2020 10:42:41 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:41 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:41 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:41 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:41 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:41 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:41 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:41 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:41 UTC] PHP   8. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1779
+[29-Dec-2020 10:42:41 UTC] PHP   9. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:41 UTC] PHP  10. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:41 UTC] PHP  11. {closure:D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php:394-449}() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\inc\MyThemeTermsMetaBoxes.php on line 741
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:42 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:42 UTC] PHP   6. include() D:\www\cartise-demo\wp-settings.php:514
+[29-Dec-2020 10:42:42 UTC] PHP   7. require_once() D:\www\cartise-demo\wp-content\themes\cartise\functions.php:18
+[29-Dec-2020 10:42:42 UTC] PHP   8. require_once() D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\options.php:166
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: disable in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:42 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:42 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:42 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:42 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:42 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:42 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-hooks.php on line 527
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:42 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:42 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:42 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:42 UTC] PHP   8. WP_Query->parse_query() D:\www\cartise-demo\wp-includes\class-wp-query.php:1766
+[29-Dec-2020 10:42:42 UTC] PHP   9. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1080
+[29-Dec-2020 10:42:42 UTC] PHP  10. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:42 UTC] PHP  11. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP  12. tsm_convert_id_to_term_in_query() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: no_paging in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php on line 402
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:42 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:42 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:42 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:42 UTC] PHP   8. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1779
+[29-Dec-2020 10:42:42 UTC] PHP   9. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:42 UTC] PHP  10. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP  11. {closure:D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php:394-449}() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\inc\MyThemeTermsMetaBoxes.php on line 741
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:42 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:42 UTC] PHP   6. include() D:\www\cartise-demo\wp-settings.php:514
+[29-Dec-2020 10:42:42 UTC] PHP   7. require_once() D:\www\cartise-demo\wp-content\themes\cartise\functions.php:18
+[29-Dec-2020 10:42:42 UTC] PHP   8. require_once() D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\options.php:166
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: disable in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:42 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:42 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:42 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:42 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:42 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:42 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-hooks.php on line 527
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:42 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:42 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:42 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:42 UTC] PHP   8. WP_Query->parse_query() D:\www\cartise-demo\wp-includes\class-wp-query.php:1766
+[29-Dec-2020 10:42:42 UTC] PHP   9. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1080
+[29-Dec-2020 10:42:42 UTC] PHP  10. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:42 UTC] PHP  11. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP  12. tsm_convert_id_to_term_in_query() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: no_paging in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php on line 402
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:42 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:42 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:42 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:42 UTC] PHP   8. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1779
+[29-Dec-2020 10:42:42 UTC] PHP   9. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:42 UTC] PHP  10. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP  11. {closure:D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php:394-449}() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\inc\MyThemeTermsMetaBoxes.php on line 741
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:42 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:42 UTC] PHP   6. include() D:\www\cartise-demo\wp-settings.php:514
+[29-Dec-2020 10:42:42 UTC] PHP   7. require_once() D:\www\cartise-demo\wp-content\themes\cartise\functions.php:18
+[29-Dec-2020 10:42:42 UTC] PHP   8. require_once() D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\options.php:166
+[29-Dec-2020 10:42:42 UTC] PHP Notice:  Undefined index: disable in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:42 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:42 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:42 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:42 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:42 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:42 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:42 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:42 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:42 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:42 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:43 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:43 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:43 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:43 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-hooks.php on line 527
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:43 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:43 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:43 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:43 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:43 UTC] PHP   8. WP_Query->parse_query() D:\www\cartise-demo\wp-includes\class-wp-query.php:1766
+[29-Dec-2020 10:42:43 UTC] PHP   9. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1080
+[29-Dec-2020 10:42:43 UTC] PHP  10. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:43 UTC] PHP  11. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP  12. tsm_convert_id_to_term_in_query() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP Notice:  Undefined index: no_paging in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php on line 402
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:43 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:43 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:43 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:43 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:43 UTC] PHP   8. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1779
+[29-Dec-2020 10:42:43 UTC] PHP   9. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:43 UTC] PHP  10. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP  11. {closure:D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php:394-449}() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\inc\MyThemeTermsMetaBoxes.php on line 741
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:43 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:43 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:43 UTC] PHP   6. include() D:\www\cartise-demo\wp-settings.php:514
+[29-Dec-2020 10:42:43 UTC] PHP   7. require_once() D:\www\cartise-demo\wp-content\themes\cartise\functions.php:18
+[29-Dec-2020 10:42:43 UTC] PHP   8. require_once() D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\metaboxes\options.php:166
+[29-Dec-2020 10:42:43 UTC] PHP Notice:  Undefined index: disable in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:43 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:43 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:43 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:43 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:43 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php on line 37
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:13
+[29-Dec-2020 10:42:43 UTC] PHP   4. require_once() D:\www\cartise-demo\wp-load.php:37
+[29-Dec-2020 10:42:43 UTC] PHP   5. require_once() D:\www\cartise-demo\wp-config.php:93
+[29-Dec-2020 10:42:43 UTC] PHP   6. do_action() D:\www\cartise-demo\wp-settings.php:546
+[29-Dec-2020 10:42:43 UTC] PHP   7. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:43 UTC] PHP   8. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP   9. CustomPostTypeGenerate->generate_custom_post_type() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP Notice:  Undefined index: taxonomy in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-hooks.php on line 527
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:43 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:43 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:43 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:43 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:43 UTC] PHP   8. WP_Query->parse_query() D:\www\cartise-demo\wp-includes\class-wp-query.php:1766
+[29-Dec-2020 10:42:43 UTC] PHP   9. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1080
+[29-Dec-2020 10:42:43 UTC] PHP  10. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:43 UTC] PHP  11. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP  12. tsm_convert_id_to_term_in_query() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP Notice:  Undefined index: no_paging in D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php on line 402
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. wp() D:\www\cartise-demo\wp-blog-header.php:16
+[29-Dec-2020 10:42:43 UTC] PHP   4. WP->main() D:\www\cartise-demo\wp-includes\functions.php:1285
+[29-Dec-2020 10:42:43 UTC] PHP   5. WP->query_posts() D:\www\cartise-demo\wp-includes\class-wp.php:747
+[29-Dec-2020 10:42:43 UTC] PHP   6. WP_Query->query() D:\www\cartise-demo\wp-includes\class-wp.php:624
+[29-Dec-2020 10:42:43 UTC] PHP   7. WP_Query->get_posts() D:\www\cartise-demo\wp-includes\class-wp-query.php:3448
+[29-Dec-2020 10:42:43 UTC] PHP   8. do_action_ref_array() D:\www\cartise-demo\wp-includes\class-wp-query.php:1779
+[29-Dec-2020 10:42:43 UTC] PHP   9. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:544
+[29-Dec-2020 10:42:43 UTC] PHP  10. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP  11. {closure:D:\www\cartise-demo\wp-content\themes\cartise\inc\theme-functions.php:394-449}() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php:37) in D:\www\cartise-demo\wp-includes\pluggable.php on line 1296
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:19
+[29-Dec-2020 10:42:43 UTC] PHP   4. do_action() D:\www\cartise-demo\wp-includes\template-loader.php:45
+[29-Dec-2020 10:42:43 UTC] PHP   5. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:43 UTC] PHP   6. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP   7. do_favicon() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP   8. wp_redirect() D:\www\cartise-demo\wp-includes\functions.php:1681
+[29-Dec-2020 10:42:43 UTC] PHP   9. header() D:\www\cartise-demo\wp-includes\pluggable.php:1296
+[29-Dec-2020 10:42:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\www\cartise-demo\wp-content\themes\cartise\theme_settings\custom_post_types\options.php:37) in D:\www\cartise-demo\wp-includes\pluggable.php on line 1299
+[29-Dec-2020 10:42:43 UTC] PHP Stack trace:
+[29-Dec-2020 10:42:43 UTC] PHP   1. {main}() D:\www\cartise-demo\index.php:0
+[29-Dec-2020 10:42:43 UTC] PHP   2. require() D:\www\cartise-demo\index.php:17
+[29-Dec-2020 10:42:43 UTC] PHP   3. require_once() D:\www\cartise-demo\wp-blog-header.php:19
+[29-Dec-2020 10:42:43 UTC] PHP   4. do_action() D:\www\cartise-demo\wp-includes\template-loader.php:45
+[29-Dec-2020 10:42:43 UTC] PHP   5. WP_Hook->do_action() D:\www\cartise-demo\wp-includes\plugin.php:478
+[29-Dec-2020 10:42:43 UTC] PHP   6. WP_Hook->apply_filters() D:\www\cartise-demo\wp-includes\class-wp-hook.php:311
+[29-Dec-2020 10:42:43 UTC] PHP   7. do_favicon() D:\www\cartise-demo\wp-includes\class-wp-hook.php:287
+[29-Dec-2020 10:42:43 UTC] PHP   8. wp_redirect() D:\www\cartise-demo\wp-includes\functions.php:1681
+[29-Dec-2020 10:42:43 UTC] PHP   9. header() D:\www\cartise-demo\wp-includes\pluggable.php:1299

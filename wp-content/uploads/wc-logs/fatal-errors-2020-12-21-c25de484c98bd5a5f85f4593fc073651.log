@@ -1,0 +1,8 @@
+2020-12-21T09:34:12+00:00 CRITICAL require_once(): Failed opening required 'D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer/global.php' (include_path='.;C:\php\pear') in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks.php on line 2
+
+2020-12-21T09:34:12+00:00 CRITICAL require_once(): Failed opening required 'D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer/global.php' (include_path='.;C:\php\pear') in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks.php on line 2
+
+2020-12-21T09:34:32+00:00 CRITICAL require_once(): Failed opening required 'D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer/theme-hooks/header.php' (include_path='.;C:\php\pear') in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks.php on line 3
+
+2020-12-21T09:34:32+00:00 CRITICAL require_once(): Failed opening required 'D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer/theme-hooks/header.php' (include_path='.;C:\php\pear') in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks.php on line 3
+

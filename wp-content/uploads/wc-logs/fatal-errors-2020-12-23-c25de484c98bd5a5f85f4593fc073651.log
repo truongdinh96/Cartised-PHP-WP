@@ -1,0 +1,161 @@
+2020-12-23T07:16:03+00:00 CRITICAL Uncaught Error: Call to undefined function check_ajax_refer() in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php:5
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#1 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb_ajax...')
+#4 {main}
+  thrown in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php on line 5
+
+2020-12-23T07:33:02+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php:44
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#1 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb_ajax...')
+#4 {main}
+  thrown in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php on line 44
+
+2020-12-23T07:44:25+00:00 CRITICAL syntax error, unexpected '?' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 571
+
+2020-12-23T07:46:26+00:00 CRITICAL syntax error, unexpected '?' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 574
+
+2020-12-23T07:48:27+00:00 CRITICAL syntax error, unexpected 'lf' (T_STRING), expecting ')' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 593
+
+2020-12-23T07:50:28+00:00 CRITICAL syntax error, unexpected 'listing' (T_STRING), expecting ')' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 622
+
+2020-12-23T07:56:31+00:00 CRITICAL syntax error, unexpected ';' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 120
+
+2020-12-23T07:58:32+00:00 CRITICAL syntax error, unexpected '?' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 586
+
+2020-12-23T08:00:32+00:00 CRITICAL syntax error, unexpected '=' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 596
+
+2020-12-23T08:08:35+00:00 CRITICAL syntax error, unexpected '?' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 628
+
+2020-12-23T08:10:36+00:00 CRITICAL syntax error, unexpected '' : '' (T_CONSTANT_ENCAPSED_STRING) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 627
+
+2020-12-23T08:12:37+00:00 CRITICAL syntax error, unexpected '?' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 635
+
+2020-12-23T08:14:38+00:00 CRITICAL syntax error, unexpected 'transform' (T_STRING) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 744
+
+2020-12-23T08:16:39+00:00 CRITICAL syntax error, unexpected '?' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 669
+
+2020-12-23T08:18:40+00:00 CRITICAL syntax error, unexpected '?' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 669
+
+2020-12-23T08:20:41+00:00 CRITICAL syntax error, unexpected ')' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 701
+
+2020-12-23T08:22:41+00:00 CRITICAL syntax error, unexpected 'transform' (T_STRING) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 759
+
+2020-12-23T08:24:42+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 630
+
+2020-12-23T08:26:43+00:00 CRITICAL syntax error, unexpected '=' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 642
+
+2020-12-23T08:28:44+00:00 CRITICAL syntax error, unexpected '>>' (T_SR) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 653
+
+2020-12-23T08:38:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_profile_salaries_html(), 0 passed in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 776 and exactly 1 expected in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:585
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php(776): get_profile_salaries_html()
+#1 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php(48): get_entry_profile_html_in_loop()
+#2 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#3 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 585
+
+2020-12-23T08:39:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_profile_salaries_html(), 0 passed in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 776 and exactly 1 expected in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:585
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php(776): get_profile_salaries_html()
+#1 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php(48): get_entry_profile_html_in_loop()
+#2 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#3 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 585
+
+2020-12-23T08:39:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_profile_salaries_html(), 0 passed in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 776 and exactly 1 expected in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:585
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php(776): get_profile_salaries_html()
+#1 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php(48): get_entry_profile_html_in_loop()
+#2 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#3 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 585
+
+2020-12-23T08:39:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_profile_salaries_html(), 0 passed in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 776 and exactly 1 expected in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:585
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php(776): get_profile_salaries_html()
+#1 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php(48): get_entry_profile_html_in_loop()
+#2 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#3 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 585
+
+2020-12-23T08:41:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_profile_salaries_html(), 0 passed in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 776 and exactly 1 expected in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:585
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php(776): get_profile_salaries_html()
+#1 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php(48): get_entry_profile_html_in_loop()
+#2 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#3 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 585
+
+2020-12-23T08:41:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_profile_salaries_html(), 0 passed in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 776 and exactly 1 expected in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:585
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php(776): get_profile_salaries_html()
+#1 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php(48): get_entry_profile_html_in_loop()
+#2 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#3 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 585
+
+2020-12-23T08:43:16+00:00 CRITICAL Object of class WP_Error could not be converted to string in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 645
+
+2020-12-23T08:46:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_profile_salaries_html() in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:559
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php(48): get_entry_profile_html_in_loop()
+#1 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#2 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb_ajax...')
+#5 {main}
+  thrown in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 559
+
+2020-12-23T08:56:12+00:00 CRITICAL syntax error, unexpected ';' in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 620
+
+2020-12-23T09:42:05+00:00 CRITICAL Cannot redeclare get_profile_vacancy_types() (previously declared in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:216) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 232
+
+2020-12-23T09:43:06+00:00 CRITICAL Cannot redeclare get_profile_vacancy_types() (previously declared in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:216) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 241
+
+2020-12-23T10:57:02+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 656
+
+2020-12-23T10:57:38+00:00 CRITICAL Cannot redeclare in_vacancy_types() (previously declared in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:647) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 675
+
+2020-12-23T10:57:41+00:00 CRITICAL Cannot redeclare in_vacancy_types() (previously declared in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:647) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 675
+
+2020-12-23T10:57:45+00:00 CRITICAL Cannot redeclare in_vacancy_types() (previously declared in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php:647) in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-functions\listing-types.php on line 675
+
+2020-12-23T15:54:16+00:00 CRITICAL Uncaught Error: Call to undefined function __get_ajax_jobs_listing_pagination_html() in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php:231
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#1 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb_ajax...')
+#4 {main}
+  thrown in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php on line 231
+
+2020-12-23T15:56:15+00:00 CRITICAL Uncaught Error: Call to undefined function __get_ajax_jobs_listing_pagination_html() in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php:231
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#1 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb_ajax...')
+#4 {main}
+  thrown in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php on line 231
+
+2020-12-23T16:00:11+00:00 CRITICAL Uncaught Error: Call to undefined function __get_ajax_jobs_listing_pagination_html() in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php:231
+Stack trace:
+#0 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(287): __ajax_unicorn_sb_get_jobs_listing('')
+#1 D:\www\artist-corner-demo\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\www\artist-corner-demo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\www\artist-corner-demo\wp-admin\admin-ajax.php(176): do_action('wp_ajax_sb_ajax...')
+#4 {main}
+  thrown in D:\www\artist-corner-demo\wp-content\themes\my-listing-child\customizer\theme-hooks\ajax\jobs-listing.php on line 231
+

@@ -1,0 +1,9 @@
+#g6k_form .flex-input {
+    width: calc( 100% - 43px);
+}
+#error-noti-drop-one {
+    font-size: smaller;
+}
+/*#g6k_form .field-container {*/
+/*    display: flex;*/
+/*}*/
